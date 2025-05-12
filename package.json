@@ -1,0 +1,47 @@
+{
+  "name": "nevarmarket",
+  "version": "1.0.0",
+  "description": "Market App",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolfan00/NeVarMarket.git"
+  },
+  "keywords": [
+    "market",
+    "product"
+  ],
+  "author": "Wolfan00",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wolfan00/NeVarMarket/issues"
+  },
+  "homepage": "https://github.com/wolfan00/NeVarMarket#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.3",
+    "sequelize-cli": "^6.6.2"
+  },
+  "dependencies": {
+    "@adminjs/express": "^6.1.1",
+    "@adminjs/sequelize": "^4.1.1",
+    "adminjs": "^7.8.15",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.2",
+    "mysql2": "^3.12.0",
+    "pg": "^8.15.6",
+    "pg-hstore": "^2.3.4",
+    "save": "^2.9.0",
+    "sequelize": "^6.37.7"
+  }
+}
